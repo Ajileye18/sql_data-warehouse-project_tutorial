@@ -1,1 +1,13 @@
+-- Create Database 'DataWarehouse'
+CREATE DATABASE DataWarehouse;
+-- SELECT database
+USE datawarehouse;
+
+-- CREATE SCHEMA
+CREATE SCHEMA bronze;
+CREATE SCHEMA silver;
+CREATE SCHEMA gold;
+
+Script Purpose:
+This script creates a new database named 'datawarehouse' after checking if it already exists.
 
